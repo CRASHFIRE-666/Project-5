@@ -1,16 +1,13 @@
 #include <iostream>
-#include <string> 
-#include <cmath>
 using namespace std;
 int main()
 {
-	double b, kb;
+	double a, b;
 
-	cin >> b;
+	cin >> a;
 
-	cout << b / 1024 << endl;
+	cout << a / 1024 << endl;
 
-	system("pause");
 	return 0;
 
 }
